@@ -8,6 +8,6 @@ class EmailParser
   def parse
     emails_array = emails.split(/[\s,]/)
     emails_array.delete("")
-    emails_array
+    emails_array.uniq
   end
 end
