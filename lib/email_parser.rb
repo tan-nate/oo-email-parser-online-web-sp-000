@@ -1,3 +1,3 @@
-class EmailParser
+class EmailParser(emails)
   
 end
